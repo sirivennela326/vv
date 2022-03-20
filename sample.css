@@ -70,25 +70,25 @@ img{
     float: right;
     width:30%;
     height: 60vh;
-    background-image: url("images/i1.jpg");
+    background-image: url("i1.jpg");
     background-size: 100% 100%;
     animation: changeImage  15s linear infinite;
    background-repeat: no-repeat;
 }
 @keyframes changeImage{
     0%{
-        background-image: url("images/i1.jpg");
+        background-image: url("i1.jpg");
     }
     25%{
-        background-image: url("images/i2.jpg");
+        background-image: url("i2.jpg");
     }
     50%{
-        background-image: url("images/i3.jpg");
+        background-image: url("i3.jpg");
     }
     75%{
-        background-image: url("images/i4.jpg");
+        background-image: url("i4.jpg");
     }
     100%{
-        background-image: url("images/i5.jpg");
+        background-image: url("i5.jpg");
     }
 }
