@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #fcf6ea;
+}
+
+html{
+    height: 100%;
+}
+#h{
+    font-size: 4vw;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-weight: bolder;
+  
+}
+#title{
+    margin: 50px 0px 0px 50px;
+}
+#subtitle{
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+#buttons{
+    float: left;
+    margin: 30vh 0vh 0vh 5vw;
+}
+.btn {
+    flex: 1 1 auto;
+    font-size: 1.3vw;
+    padding: 0.8vw 1vw;
+    border-radius: 1vw;
+    color:white;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-color: transparent;
+    margin-right: 4vw;
+   }
+  
+  
+  .btn:hover {
+    background-position: right center; 
+  }
+#btn1{
+    background-image: linear-gradient(to right, #DAD299 0%, #B0DAB9  51%, #DAD299  100%);
+}
+#btn2{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+
+img{
+    height: 30vw;
+}
+
+.image-slider{
+    margin-top: 3vh;
+    margin-right: 3vw;
+    float: right;
+    width:30%;
+    height: 60vh;
+    background-image: url("images/i1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage  15s linear infinite;
+   background-repeat: no-repeat;
+}
+@keyframes changeImage{
+    0%{
+        background-image: url("images/i1.jpg");
+    }
+    25%{
+        background-image: url("images/i2.jpg");
+    }
+    50%{
+        background-image: url("images/i3.jpg");
+    }
+    75%{
+        background-image: url("images/i4.jpg");
+    }
+    100%{
+        background-image: url("images/i5.jpg");
+    }
+}
